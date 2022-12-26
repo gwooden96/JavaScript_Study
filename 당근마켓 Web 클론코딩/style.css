@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  background: white;
+  height: 60px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+
+  position: fixed;
+  top: 0;
+}
+
+.logo img {
+  height: 30px;
+}
+.logo {
+  margin-right: 30px;
+}
+ul {
+  list-style: none;
+}
+
+.h-nav ul li{
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.left-menu, .right-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  width: 250px;
+  height: 40px;
+  margin-right: 15px;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.btn-cheting {
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  background: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.h-nav ul li:first-child a {
+  color: #ff8a3d;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+section {
+  width: 100%;
+  height: 685px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section > .img-box:last-child {
+  width: 800px;
+  height: 685px;
+}
+
+.img-box > img {
+  width: 100%;
+  height: 100%;
+}
+
+content > section:nth-of-type(1) {
+  background: #FBF7F2;
+  margin-top: 60px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* section div:first-child {
+  margin-left: 60px;
+} */
+
+
+section > .img-box:first-child {
+  width: 530px;
+  height: 685px;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #f1f3f5;
+  padding: 15px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+
+.f-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.f-nav li {
+  padding: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 20%;
+  border-bottom: 1px solid lightgray;
+}
+
+content > section:last-child {
+  border-bottom: 1px solid lightgray;
+}
