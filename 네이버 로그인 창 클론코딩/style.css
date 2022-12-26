@@ -1,0 +1,129 @@
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Merienda:wght@600&family=Noto+Sans+KR&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font: 15px/1.8 'Noto Sans KR', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+#container {
+  background-color: rgb(252, 252, 252);
+  width: 700px;
+  margin: auto;
+  height: 100%;
+}
+
+#wrapper {
+
+  width: 100%;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 50%;
+}
+
+#logeheader {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+#loginWrap {
+  height: 25px;
+  width: 100%;
+}
+
+.lw input {
+  width: 100%;
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+}
+
+.submit {
+  background-color: #03C75a;
+  color: white;
+  cursor: pointer;
+}
+
+.stateLeft {
+  float: left;
+  color: rgb(131, 131, 131);
+}
+
+.ipRight {
+  float: right;
+  color: rgb(131, 131, 131);
+}
+
+
+.loginWrap2 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.loginWrap2 div a {
+  border: 1px solid #03C75a;
+  padding: 10px;
+  width: 47%;
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 50px; /* serchWrap 위아래 간격 */
+}
+
+.loginWrap2 div a:first-child {
+  margin-right: 6%;
+}
+
+.loginWrap2 h2 {
+  margin-bottom: 5%;
+  color: rgb(61, 61, 61);
+}
+
+.loginWrap2 div a:hover {
+  background-color: #03C75a;
+  color: white;
+}
+
+.serchWrap {
+  text-align: center;
+  margin-bottom: 50px; /* footer 위아래 간격 마진설정 */
+}
+
+.serchWrap a {
+  margin: 0 10px;
+  color: #444;
+}
+
+#footer {
+  text-align: center;
+}
+
+#footer img {
+  width: 80px;
+  vertical-align: middle;
+}
+
+.loginWrap {
+  border-bottom: 1px solid #ccc;
+  overflow: auto;
+  padding-bottom: 20px;
+}
