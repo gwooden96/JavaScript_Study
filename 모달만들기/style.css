@@ -1,0 +1,41 @@
+.black-bg {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    /* z-index: 5; 앞에 띄워줄때*/
+
+    /* display: none; */
+
+    /* 숨기기 */
+    visibility: hidden;
+
+    /* opacity: 0; */
+    height: 0;
+
+    /* 애니메이션 */
+    transition: all 0.5s;
+    
+    overflow: hidden;
+}
+
+.white-bg {
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.show {
+
+    /* display: block; */
+
+    /* 보이기 */
+    visibility: visible;
+
+    /* opacity: 1; */
+    height: 100%;
+
+    overflow: hidden;
+}
