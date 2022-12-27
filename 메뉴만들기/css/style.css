@@ -1,0 +1,9 @@
+/* list 목록 기본 안보여지게 */
+.list-group {
+    display: none;
+}
+
+/* 클래스를 임의적으로 생성 display 보여지게 */
+.show {
+    display: block;
+}
