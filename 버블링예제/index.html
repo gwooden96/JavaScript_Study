@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 
+    - 버블링
+    한 태그에서 이벤트가 발생
+    -> 그 태그에 이벤트가 실행 -> 부모로 넘어가서 또 이벤트가 작동
+    -> 부모가 또 있으면 또 넘어가서 또 작동 -> 반복
+
+
+    <form onclick="alert('form')"> form
+        <div onclick="alert('div')"> div
+            <p onclick="alert('p')">  p
+            </p>
+        </div>
+    </form>
+
+
+    <div onclick="alert('div태그 이벤트')">
+        <span>이건<b>뭐지</b></span>
+    </div>
+-->
+
+
+
+    <!-- <form id="form"> form
+        <div> div
+            <p> p
+            </p>
+        </div>
+    </form> -->
+
+
+    <div onclick="alert('aaa')"> div
+        <p onclick="event.stopPropagation()"> p
+        </p>
+    </div>
+
+
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
