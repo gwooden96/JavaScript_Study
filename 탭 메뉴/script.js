@@ -72,20 +72,26 @@ let tabContent = $('.tab-content');
 
 $('.list').on('click', function(e) {
 
-    console.log(e.target);
+    
 
-    if(e.target === document.querySelectorAll('.tab-btn')[0]) {
-        showTab(0);
-    } else if (e.target === document.querySelectorAll('.tab-btn')[1]) {
-        showTab(1);
-    } else {
-        showTab(2);
-    }
+    console.log(e.target);
+    //클릭한 버튼의 데이터셋(index)을 찾아서 index의 값을 알려준다.
+    console.log(e.target.dataset.index);
+
+    showTab(e.target.dataset.index);
+
+    // if(e.target === document.querySelectorAll('.tab-btn')[0]) {
+    //     showTab(0);
+    // } else if (e.target === document.querySelectorAll('.tab-btn')[1]) {
+    //     showTab(1);
+    // } else if (e.target === document.querySelectorAll('.tab-btn')[2]){
+    //     showTab(2);
+    // }
 
 });
 
 
-//작동되는 기능들만 함수화
+//작동되는 기능들만 함수선언
 function showTab(i) {
 
     tabBtn.removeClass('select');
